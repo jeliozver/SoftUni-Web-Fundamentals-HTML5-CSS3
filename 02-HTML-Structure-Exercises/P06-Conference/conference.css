@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHh30AXC-v.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+/* HEADER START */
+header {
+    height: 450px;
+    background-color: #293F50;
+}
+
+.header-nav ul {
+    list-style: none;
+}
+
+.header-nav ul li {
+    display: inline-block;
+    text-align: left;
+    padding-top: 16px;
+    padding-left: 10px;
+    margin: 8px 0 0 10px;
+    text-transform: uppercase;
+}
+
+.header-nav ul li a {
+    color: #628379;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.date {
+    margin-top: 5px;
+    padding-right: 20px;
+    text-align: right;
+    color: #628379;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+h2 {
+    color: #628379;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: 300;
+}
+
+.header-desc {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 23px;
+    margin-top: 7px;
+    font-weight: 300;
+}
+
+header div {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 20px 20px 20px;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+
+/* TODO */
+
+/* MAIN END */
+
+/* FOOTER START */
+
+footer {
+    height: 100px;
+    background-color: #293F50;
+}
+
+footer p {
+    display: inline;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: lowercase;
+}
+
+.footer-nav ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    padding-top: 16px;
+    padding-left: 10px;
+    margin: 8px 0 0 10px;
+}
+
+.footer-nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* FOOTER END */
