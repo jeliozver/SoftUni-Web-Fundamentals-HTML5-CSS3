@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #e2d7aa;
+    color: #000000;
+    font-size: 16px;
+    width: 1180px;
+    margin: auto;
+}
+
+img {
+    width: 1110px;
+    height: 450px;
+}
+
+.img-container {
+    width: 1600px;
+    height: 460px;
+    margin-top: 65px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 65px;
+    font-family: 'Indie Flower', cursive;
+}
+
+nav {
+    margin: 30px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #000000;
+}
+
+nav ul li:first-child a {
+    color: #0a2d4a;
+    font-weight: bold;
+}
+
+nav ul li:last-child a {
+    color: #0a2d4a;
+    font-weight: bold;
+}
+
+article {
+    width: 364px;
+    height: 652px;
+    padding: 10px 10px 20px 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+article p {
+    text-align: justify;
+}
+
+article:last-child {
+    margin-top: 10px;
+}
+
+article img {
+    width: 350px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+article p::first-letter {
+    font-family: EucrosiaUPC, sans-serif;
+    font-size: 40px;
+}
+
+article p:last-of-type span:first-of-type a::before {
+    content: url("images/comment.png");
+    position: relative;
+    right: 5px;
+    top: 7px;
+    padding: 10px;
+}
+
+span a {
+    background: url(images/bg2.jpg);
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.readmore, .comments a{
+    text-transform: uppercase;
+}
+
+footer {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
