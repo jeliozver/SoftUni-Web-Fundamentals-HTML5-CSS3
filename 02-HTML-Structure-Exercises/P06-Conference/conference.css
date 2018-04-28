@@ -110,7 +110,31 @@ header div {
 
 /* MAIN START */
 
-/* TODO */
+section {
+    width: 20%;
+    padding: 70px 0;
+    margin: 0 -245px 0 270px;
+    display: inline-block;
+    color: #628379;
+}
+
+section a {
+    color: #628379;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 20px 20px 20px 20px;
+}
+
+section img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+section p {
+    margin: 30px 0;
+}
 
 /* MAIN END */
 
