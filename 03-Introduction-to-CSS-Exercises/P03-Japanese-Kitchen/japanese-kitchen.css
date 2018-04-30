@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    background: url("images/dark-wood.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+header, nav, main {
+    margin: 0 15%;
+}
+
+header {
+    background: url("images/header-page.jpg") no-repeat;
+    padding: 50px;
+}
+
+header h1 {
+    padding-left: 65%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+nav {
+    background: url("images/header-page.jpg") no-repeat;
+    padding: 7px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+nav ul li:first-of-type a {
+    color: #000000;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+main {
+    margin-top: 6px;
+    background-color: #FFFFFF;
+    width: 940px;
+}
+
+article div h2 {
+    color: #606060;
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+
+article div h3 {
+    color: #DCCBA0;
+    font-size: 1.2em;
+    padding-bottom: 5px;
+}
+
+article p {
+    font-size: 1.1em;
+}
+
+.courses {
+    padding-top: 25px;
+    width: 70%;
+    display: inline-block;
+    border-right: 1px solid #ccc;
+}
+
+.popular-recipes {
+    color: #DC627E;
+}
+
+.popular-recipes h2 {
+    font-size: 1.6em;
+    padding-bottom: 20px;
+}
+
+.popular-recipes ul li a {
+    color: #DC627E;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.2em;
+}
+
+.popular-recipes ul li {
+    padding: 10px 10px;
+}
+
+article {
+    margin: 10px 0;
+}
+
+article::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+figure {
+    float: left;
+    border: 1px solid #ccc;
+    margin: 0 30px;
+    padding: 7px 7px;
+    font-size: 1.3em;
+}
+
+aside {
+    width: 23%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-top: 55px;
+    color: #D9527A;
+}
+
+footer {
+    background: url("images/header-page.jpg");
+    text-align: center;
+    padding: 7px;
+    margin-top: 5px;
+    color: #FFFFFF;
+}

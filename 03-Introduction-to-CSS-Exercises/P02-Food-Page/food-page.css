@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background: url(images/header.jpg);
+    background-size: cover;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 90px;
+}
+
+.content {
+    width: 40%;
+    float: left;
+}
+
+.content article {
+    padding-left: 60px;
+    width: 100%;
+}
+
+button {
+    background: none;
+    color: #ec5353;
+    border: 1px solid #ec5353;
+    border-radius: 30px;
+    padding: 15px;
+    width: 140px;
+}
+
+button:hover {
+    background: #ec5353;
+    color: #FFFFFF;
+}
+
+aside {
+    margin-left: 60%;
+}
+
+aside img {
+    width: 400px;
+    height: 200px;
+}
+
+aside p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
