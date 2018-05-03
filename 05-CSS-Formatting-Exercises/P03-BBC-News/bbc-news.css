@@ -1,0 +1,34 @@
+body {
+    width: 890px;
+    margin: auto;
+    font-family: Calibri Light, Verdana, sans-serif;
+}
+
+main {
+    border: 1px solid #A5B2B3;
+    margin-top: 40px;
+}
+
+a img {
+    width: 200px;
+    height: 110px;
+}
+
+a img:hover {
+    opacity: 0.4;
+}
+
+article {
+    display: inline-grid;
+    width: 200px;
+    height: 444px;
+    padding: 0 8px;
+}
+
+h2 {
+    text-align: center;
+}
+
+article p {
+    word-break: break-word;
+}
