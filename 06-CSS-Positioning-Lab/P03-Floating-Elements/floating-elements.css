@@ -1,0 +1,27 @@
+main {
+    text-align: justify;
+    width: 400px;
+}
+
+div {
+    background-color: #6495ED;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.left {
+    float: left;
+    margin-right: 10px;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+}
+
+.center {
+    margin: 0 auto;
+}
