@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+}
+
+main {
+    width: 1000px;
+    margin: 15px auto;
+}
+
+main article {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+    border: 2px solid #F8F9FB;
+    height: 650px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #788494;
+    margin-top: 50px;
+}
+
+article h2 {
+    text-transform: capitalize;
+    font-size: 30px;
+    background-color: #EBEFF2;
+    color: #67798D;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+article span {
+    font-size: 60px;
+    color: #818F9A;
+}
+
+article ul {
+    list-style-type: none;
+    padding: 40px;
+}
+
+article ul li {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: #788492;
+    border-bottom: 1px solid #F2F2F4;
+    padding-top: 30px;
+}
+
+button {
+    background-color: #DDD;
+    border: 1px solid #DDD;
+    border-radius: 15px;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #FFF;
+    padding: 25px;
+    width: 250px;
+    position: absolute;
+    top: 550px;
+    left: 20px;
+}
+
+h2:hover, button:hover {
+    background-color: #65D3E2;
+}
+
+span:hover {
+    color: #65D3E2;
+}
