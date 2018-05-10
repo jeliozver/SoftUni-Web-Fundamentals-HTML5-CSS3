@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    font-family: 'Monserrat', sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background: url(images/Layer-759_02.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    height: 755px;
+}
+
+nav, ul {
+    height: 60px;
+    list-style-type: none;
+}
+
+.nav-primary {
+    background-color: #BA925E;
+    opacity: 0.75;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 90px 0 auto;
+    line-height: 60px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.home {
+    margin-left: 20px;
+}
+
+.consulting-rev {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.consulting-rev h1 {
+    color: #FFF;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+.consulting-rev p {
+    color: #FFF;
+    font-size: 24px;
+    text-align: center;
+}
+
+.consulting-rev a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 20px auto;
+    display: block;
+    width: 120px;
+    height: 25px;
+    background: #090821;
+    padding: 10px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+
+.fa-chevron-right {
+    color: #C79D63;
+}
+
+.consulting-rev a:hover,
+.consulting-rev a:hover .fa-chevron-right {
+    background: #c79d63;
+    color: #090821;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+article {
+    width: 25%;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+main > header h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #090821;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+main p {
+    font-size: 16px;
+    margin: 10px 0 0;
+    text-transform: none;
+    color: #000;
+}
+
+main p, h2 {
+    text-align: left;
+}
+
+.banner span {
+    color: #c79d63;
+}
+
+.banner {
+    margin-top: 40px;
+    margin-bottom: -15px;
+    padding-top: 35px;
+    padding-bottom: 46px;
+    background: url(images/steel-bg.jpg);
+    background-size: cover;
+}
+
+.banner h5 {
+    text-align: center;
+    font-size: 24px;
+    width: 520px;
+    margin: 0 auto;
+}
+
+.traders {
+    margin: 0;
+    padding-top: 35px;
+    padding-bottom: 46px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('images/background-choose-us.jpg') no-repeat center;
+    background-size: cover;
+    color: #FFF;
+    height: 360px;
+    text-align: center;
+}
+
+.traders h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.traders article {
+    border: 2px solid #C79D63;
+    text-align: center;
+    padding: 20px;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.traders article h5 {
+    font-size: 20px;
+}
+
+.traders article p {
+    color: #FFF;
+    margin: 0 0 17px 17px;
+}
+
+.traders article:hover, .traders article:hover p {
+    background-color: #FFF;
+    color: #090821;
+    cursor: pointer;
+}
+
+.woman {
+    background: url(images/consulting-woman.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 0;
+    position: relative;
+}
+
+.testimonial-info {
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    width: 500px;
+    padding: 64px 60px 53px 60px;
+    background-color: #FFF;
+    opacity: 0.7;
+}
+
+.testimonial-info > p::before,
+.testimonial-info > p::after {
+    content: open-quote;
+    color: #c79d63;
+    font-size: 32px;
+}
+
+.testimonial-info > p::after {
+    content: close-quote;
+}
+
+.testimonial-info div {
+    background-color: #080820;
+    height: 280px;
+    text-align: left;
+    color: #777777;
+    opacity: 1;
+}
+
+.testimonial-info div h4 {
+    text-align: right;
+    font-size: 14px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.testimonial-info div p {
+    color: #FFF;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.partners {
+    height: 90px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.partners li {
+    display: inline-block;
+}
+
+.partners img {
+    width: 135px;
+    height: 60px;
+}
+
+footer {
+    background-color: #080820;
+    height: 300px;
+}
+
+footer section {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 120px;
+}
+
+footer h2 {
+    color: #ffffff;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.information li {
+    color: #ffffff;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.information li i {
+    font-size: 16px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    width: 153px;
+}
+
+.socials li {
+    width: 200px;
+}
+
+.socials a {
+    display: block;
+    width: 32px;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    background: #83838f;
+    color: #090821;
+}
+
+.extra-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 148px;
+    width: 200px;
+}
+
+.extra-links ul li {
+    display: block;
+    padding: 5px;
+}
+
+.extra-links ul li a {
+    color: #c79d63;
+    text-decoration: none;
+}
+
+.instagram-widget ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.instagram-widget img {
+    width: 100px;
+    height: 100px;
+}
