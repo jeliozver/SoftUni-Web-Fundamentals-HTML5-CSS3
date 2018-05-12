@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+    background-color: #927057;
+    color: #FFF;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image-container img {
+    border: 5px solid #D5C395;
+    height: 123px;
+}
+
+main {
+    position: relative;
+    width: 470px;
+    margin: 50px auto;
+    padding: 50px 60px 70px 60px;
+    background-color: #D5C395;
+}
+
+main::before {
+    content: '';
+    position: absolute;
+    background: url(images/triangle.png);
+    width: 68px;
+    height: 35px;
+    top: -30px;
+    left: 260px;
+}
+
+.name, .pass {
+    outline: none;
+    border: none;
+    width: 85%;
+    padding: 10px 10px 10px 60px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background: #EFE1C4;
+    color: #927057;
+    font-size: 1.1em;
+}
+
+.submit {
+    outline: none;
+    border: none;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #927057;
+    color: #D5C395;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.submit:hover {
+    cursor: pointer;
+    color: #FAE7B0;
+    box-shadow: 0 0 3px #FFF;
+}
+
+.from-field {
+    position: relative;
+}
+
+.from-field img {
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    top: 11px;
+    left: 12px;
+}
+
+footer {
+    font-size: 1em;
+    color: #EFE1C4;
+    text-align: center;
+}
