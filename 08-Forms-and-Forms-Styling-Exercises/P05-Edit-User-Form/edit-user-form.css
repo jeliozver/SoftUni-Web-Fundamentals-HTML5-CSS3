@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #EEEEEE;
+    color: #1E1917;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 20px auto;
+}
+
+header {
+    background-color: #FFF;
+    border-top: 12px solid #324E5B;
+    border-right: 12px solid #324E5B;
+}
+
+main {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #324E5B;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px 0 20px 40px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+}
+
+input {
+    margin: 8px 0;
+}
+
+#info input:not([type='radio']) {
+    outline: none;
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    border-top: 5px solid #324E5B;
+    border-left: 5px solid #324E5B;
+}
+
+input[type='radio'],
+label[for='radio'],
+label[for='broadband'] {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+label[for='broadband'] {
+    margin-right: 250px;
+}
+
+#broadband, #radio {
+    margin-right: 5px;
+}
+
+#groups {
+    width: 81%;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    background-color: #FFF;
+    border-top: 5px solid #324E5B;
+    border-left: 5px solid #324E5B;
+}
+
+#groups label {
+    margin-left: 20px;
+}
+
+label[for='all-groups'] {
+    margin-top: 10px;
+}
+
+label[for='group-4'] {
+    padding-bottom: 5px;
+}
+
+a {
+    font-size: 15px;
+    color: #136F63;
+    display: block;
+    margin: 8px 0;
+}
+
+#reset, #submit {
+    font-size: 15px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 10px 90px;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+#reset {
+    border-right: 3px solid #FF5427;
+    border-bottom: 3px solid #FF5427;
+    color: #FF5427;
+    margin: 0 30px 0 50px;
+}
+
+#submit {
+    border-right: 3px solid #136F63;
+    border-bottom: 3px solid #136F63;
+    color: #136F63;
+}

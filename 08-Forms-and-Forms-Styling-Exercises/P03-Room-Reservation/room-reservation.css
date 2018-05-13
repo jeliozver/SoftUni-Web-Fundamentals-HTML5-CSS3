@@ -1,0 +1,142 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: #EBEBEB;
+    margin: 0 40px;
+}
+
+header {
+    background-color: #F1F1F1;
+}
+
+header, #basic-info-container, #details-container {
+    border-bottom: 1px dashed #CBCBCB;
+}
+
+h1 {
+    color: #269EE4;
+    padding: 20px 5px;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.search, #personal-details input {
+    display: block;
+}
+
+.search {
+    font-weight: bold;
+}
+
+#basic-info-container h2 {
+    margin-bottom: 10px;
+}
+
+#basic-info-container p {
+    width: 72%;
+    display: inline-block;
+    margin-right: 70px;
+    float: left;
+}
+
+#basic-info-container > div {
+    padding: 10px 0;
+}
+
+label[for=search] {
+    position: relative;
+}
+
+i {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+#basic-info-container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#basic-info-container, #details-container {
+    margin-top: 20px;
+}
+
+#personal-details, #reservation {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+#personal-details input {
+    margin-left: 2px;
+    margin-bottom: 10px;
+    width: 35%;
+    height: 20px;
+}
+
+#personal-details h2 {
+    margin-bottom: 10px;
+}
+
+#reservation label {
+    display: inline-block;
+}
+
+#reservation input,
+#reservation select {
+    height: 20px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+#reservation label[for=rooms] {
+    width: 60%;
+}
+
+#reservation label select {
+    width: 100%;
+}
+
+#reservation label input {
+    width: 97%;
+}
+
+#reservation label[for=roomsCount] {
+    width: 38%;
+}
+
+#reservation label[for=check-in],
+#reservation label[for=check-out] {
+    width: 49%;
+    margin-top: 5px;
+}
+
+.btn {
+    float: right;
+    background-color: #32A2E4;
+    border: 1px solid #32A2E4;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 25px;
+    padding: 3px 15px;
+    color: #FFF;
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    background-color: #3BBC96;
+    border-color: #3BBC96;
+    cursor: pointer;
+}
