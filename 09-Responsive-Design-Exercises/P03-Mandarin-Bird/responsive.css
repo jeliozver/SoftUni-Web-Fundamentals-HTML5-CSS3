@@ -1,0 +1,92 @@
+@media all and (max-width: 1200px) {
+    #wrapper {
+        width: 100%;
+    }
+
+    header, main {
+        width: 80%;
+    }
+
+    header {
+        background-size: cover;
+    }
+
+    header > h1 {
+        font-size: 6em;
+        line-height: 0.8em;
+    }
+
+    header nav > ul li {
+        width: 20%;
+    }
+
+    main section, main aside {
+        width: 90%;
+        float: none;
+    }
+
+    main aside article {
+        display: block;
+        margin-right: 0;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer p {
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width: 730px) {
+    header {
+        background-size: contain;
+    }
+
+    header > h1 {
+        font-size: 4em;
+        padding-top: 10px;
+    }
+
+    header > p {
+        font-size: 1.7em;
+    }
+
+    header > nav {
+        height: auto;
+    }
+
+    header nav > ul li {
+        width: 100%;
+        display: block;
+        float: none;
+    }
+
+    header {
+        margin-bottom: 30px;
+        border: none;
+    }
+
+    main section > div {
+        height: auto;
+    }
+
+    main section > div > div {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #BACD8B;
+    }
+
+    main section > div article h3 {
+        text-align: center;
+    }
+
+    main > aside > article > h1,
+    main > aside > article > h2 {
+        text-align: center;
+    }
+
+}
