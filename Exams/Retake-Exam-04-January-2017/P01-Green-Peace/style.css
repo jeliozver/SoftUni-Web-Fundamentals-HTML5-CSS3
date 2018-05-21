@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'),
+    local('Lato-Regular'),
+    url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'),
+    local('Montserrat-Regular'),
+    url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+main {
+    text-align: center;
+}
+
+main article {
+    background-color: #FFF;
+    display: inline-block;
+    vertical-align: top;
+    width: 270px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+main article h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #4A3611;
+}
+
+span {
+    font-size: 18px;
+}
+
+main article p {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    color: #ADADAA;
+    width: 80%;
+    margin: 20px auto;
+}
+
+main article a {
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 1px solid #E07D46;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #E07D46;
+    font-size: 15px;
+
+}

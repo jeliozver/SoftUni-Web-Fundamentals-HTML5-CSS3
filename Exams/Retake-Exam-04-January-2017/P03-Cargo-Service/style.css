@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Titillium Web Regular'),
+    local('TitilliumWeb-Regular'),
+    url(https://fonts.gstatic.com/s/titilliumweb/v6/NaPecZTIAOhVxoMyOr9n_E7fdMPmCA.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: #000;
+    margin: 20px 20px;
+    width: 700px;
+}
+
+h1, h1 > span {
+    text-transform: uppercase;
+    border-bottom: 2px solid #EFEFEF;
+    padding-bottom: 15px;
+}
+
+h1 > span {
+    border-color: #FCA900;
+}
+
+label {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input, select {
+    outline: none;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    border: 2px solid #EFEFEF;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 16px;
+}
+
+#dist {
+    width: 96%;
+    margin-top: 15px;
+}
+
+input:focus {
+    border-color: #FCA900;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.row > div label {
+    margin-bottom: 15px;
+}
+
+.row-2 > div {
+    display: inline-block;
+    width: 46%;
+}
+
+.row-2 div:first-of-type {
+    margin-right: 50px;
+}
+
+#weight, #fragile {
+    width: 100%;
+}
+
+select {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, #FCA900 50%),
+    linear-gradient(135deg, #FCA900 50%, transparent 50%),
+    linear-gradient(to right, #fff, #fff);
+    background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px,
+    5px 5px,
+    1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+select:focus {
+    background-image: linear-gradient(45deg, #FCA900 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, #FCA900 50%),
+    linear-gradient(to right, #fff, #fff);
+    background-position: calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px,
+    5px 5px,
+    1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: #FCA900;
+    outline: 0;
+}
+
+.row-3 > div {
+    display: inline-block;
+    margin-right: 30px;
+    width: 30%;
+}
+
+.row-3 > div:last-child {
+    margin-right: 0;
+}
+
+.row-3 > div input {
+    width: 89%;
+}
+
+.row-4, .row-5 {
+    border-bottom: 2px solid #EFEFEF;
+    padding-bottom: 30px;
+}
+
+.row-4 > label:first-of-type,
+input[type='radio'],
+label[for='insurance'],
+label[for='delivery'] {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+label[for='insurance'],
+label[for='delivery'] {
+    text-transform: capitalize;
+}
+
+.row-4 > label:first-of-type {
+    margin-right: 100px;
+}
+
+label[for='insurance'] {
+    margin-right: 150px;
+}
+
+.total {
+    font-size: 25px;
+}
+
+.money {
+    float: right;
+    color: #FCA900;
+}
